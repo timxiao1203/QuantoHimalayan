@@ -1,6 +1,6 @@
 # Quanto Himalayan Option
 
-Himalayan options are a form of path-dependent, exotic option on a basket of equity underliers, in which intermediate returns on selected equities enter the payoff, while the equities are subsequently removed from the basket.
+Himalayan options are a form of path-dependent, exotic option on a basket of equity underliers, in which intermediate returns on selected equities enter the payoff, while the equities are subsequently removed from the basket. Himalayan option belongs to very exotic derivatives. Many exotic derivatives have barrier condition (see https://finpricing.com/lib/EqBarrier.html) 
 
 For a set of d equities (stocks or equity indexes), let their respective prices at time t be Y1(t), . . . , Yd(t). Given a collection of fixing dates, t0, t1, . . . , td, let the equity returns Ri,j , for i = 1, . . . , d, j = 1, . . . , d be defined.
 
@@ -18,7 +18,5 @@ Moreover, as can be seen from the test results below, the relative error in the 
 For a large number of paths, this ratio should be approximately normally distributed with mean zero and unit variance, if the means in the two models are equal. We believe that this is a more meaningful way of comparing results whose Monte Carlo sampling error is large relative to the size of their expectation.
 
 References:
-
-https://finpricing.com/lib/EqConvertible.html
 
 https://osf.io/cg5x4/download
